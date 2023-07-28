@@ -1,0 +1,56 @@
+  * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+  }
+
+  body {
+      width: 100vw;
+      height: 100vh;
+      background: linear-gradient(-225deg, #44e7b6, #d035b1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  form {
+      display: flex;
+      width: 50%;
+      background-color: rgba(208, 188, 61, 0.2);
+      border: 5px double #8e5133;
+      border-radius: 10px;
+      padding: 2%;
+      flex-direction: column;
+  }
+
+  input {
+      border: none;
+      outline: 2px dotted #8e5133;
+      border-radius: 5px;
+      padding: 8px;
+      margin: 10px;
+      font-size: 16px;
+      background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  input[type=number] {
+      width: 30%;
+  }
+
+  div {
+      font-size: 15px;
+      font-weight: bold;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  button {
+      border: none;
+      background-color: red;
+      color: white;
+      font-size: 14px;
+      font-weight: bold;
+      padding: 10px 20px;
+      border-radius: 6px;
+      margin: 10px auto;
+      cursor: pointer;
+  }

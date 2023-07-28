@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<link rel="stylesheet" href="css.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gear Calculator</title>
+</head>
+<body>
+    <form id="form">
+        <div>
+            <span>Tooth</span>
+            <input type="number" step="1" id="teeth" name="teeth">
+        </div>
+        <div>
+            <span>Module</span>
+            <input type="number" step="0.1" id="module" name="module">
+        </div>
+        <div>
+            <span>Angle</span>
+            <input type="number" step="0.5" id="angle" name="angle">
+        </div>
+        <div>
+            <span>Type</span>
+            <select id="type">
+                <option value="5.787">5.787</option>
+                <option value="8">8</option>
+            </select>
+        </div>
+        <button type="submit">Calculate</button>
+    </form>
+    <div id="output">
+    
+    </div>
+    <script src="jquery-3.6.0.min.js"></script>
+
+    <script src="script.js">
+    </script>
+</body>
+</html>
