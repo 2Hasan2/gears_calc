@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="../style/gear.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Gear calc</h1>
+		<form id="form">
+			<div>
+				<span>Tooth</span>
+				<input type="number" step="1" id="teeth" name="teeth" required>
+			</div>
+			<div>
+				<span>Module</span>
+				<input type="number" step="0.1" id="module" name="module" required>
+			</div>
+			<div>
+				<span>Angle</span>
+				<input type="number" step="0.5" id="angle" name="angle">
+			</div>
+			<div>
+				<span>Type</span>
+				<select id="type">
+					<option value="5.787">5.787</option>
+					<option value="8">8</option>
+				</select>
+			</div>
+			<div id="output"></div>
+			<button type="submit">Calculate</button>
+		</form>
+	</div>
+	<script src="../js/gear.js"></script>
+</body>
+</html>

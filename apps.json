@@ -1,0 +1,11 @@
+[
+	{
+		"name": "distribution",
+		"version": "1.0.0",
+		"url" : "distribution.html"
+	},{
+		"name": "gear",
+		"version": "1.0.0",
+		"url" : "gear.html"
+	}
+]

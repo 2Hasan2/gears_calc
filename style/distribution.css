@@ -1,0 +1,112 @@
+     * {
+     	padding: 0;
+     	margin: 0;
+     	box-sizing: border-box;
+     }
+
+     body {
+     	background: #3a3a3a;
+     	display: flex;
+     	flex-direction: column;
+     	align-items: center;
+     	justify-content: center;
+     	flex-wrap: nowrap;
+     	gap: 35px;
+     	height: 100vh;
+     }
+
+     #form {
+     	display: flex;
+     	flex-direction: column;
+     	width: fit-content;
+     	height: fit-content;
+     	gap: 10px;
+     	background: #4bcda2;
+     	padding: 15px;
+     	border-radius: 10px;
+     	outline: 10px #ffebcd solid;
+     	box-shadow: 0px 0px 10px 10px #000000;
+     }
+
+     #form div {
+     	display: grid;
+     	font-family: fantasy;
+     	font-size: 20px;
+     	gap: 4px;
+     	font-weight: bold;
+     }
+
+     div input,
+     div select {
+     	margin: 0px 10px;
+     	height: 25px;
+     	outline: none;
+     	border: 2px #6a5050 solid;
+     	border-radius: 5px;
+     	font-weight: 700;
+     	font-size: 15px;
+     }
+
+     input:focus,
+     select:focus {
+     	outline: 4px #008000 solid;
+     	border: transparent;
+     }
+
+     button {
+     	width: 100px;
+     	margin: auto;
+     	padding: 8px;
+     	border: none;
+     	border-radius: 8px;
+     	font-size: large;
+     	color: #57ab4f;
+     	font-weight: 600;
+     }
+
+     button:active {
+     	outline: 4px #008000 solid;
+     }
+
+     #output p {
+     	display: flex;
+     	font-size: 15px;
+     	font-weight: 400;
+     	justify-content: flex-end;
+     }
+
+     #outPut div {
+     	display: flex;
+     	gap: 20px;
+     	font-size: 15px;
+     	justify-content: center;
+     	align-items: center;
+     }
+
+     .add {
+     	padding: 1px;
+     	color: #2846cd;
+     	font-size: 18px;
+     	font-weight: bold;
+     }
+
+     .onAdd {
+     	padding: 2px;
+     	border-radius: 6px;
+     	background: #acff2f;
+     }
+
+     footer {
+     	position: fixed;
+     	bottom: 10%;
+     	font-size: large;
+     	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     	color: #4bcda2;
+     	text-shadow: 2px 1px 12px #03e16f;
+     }
+
+     footer a {
+     	text-decoration: none;
+     	color: #ffebcd;
+     	text-shadow: 2px 1px 12px #e1e103;
+     }
