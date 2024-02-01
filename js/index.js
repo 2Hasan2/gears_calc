@@ -7,7 +7,7 @@ function GUI(data) {
 	data.forEach(app => {
 		let appOption = document.createElement('div');
 		appOption.classList.add('app-option');
-		let http = window.location.href
+		let http = window.location.href;
 		console.log(http);
 		appOption.innerHTML = `
 				<h2>${app.name}</h2>
