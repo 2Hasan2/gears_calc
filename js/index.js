@@ -7,9 +7,11 @@ function GUI(data) {
 	data.forEach(app => {
 		let appOption = document.createElement('div');
 		appOption.classList.add('app-option');
+		let http = window.location.href.split('/').slice(0, 3).join('/');
 		appOption.innerHTML = `
 				<h2>${app.name}</h2>
-				<a href="/templates/${app.url}" class="btn">Go to ${app.name}</a>
+
+				<a href="${http}/templates/${app.url}" class="btn">Go to ${app.name}</a>
 			`;
 		appOptions.appendChild(appOption);
 	});
