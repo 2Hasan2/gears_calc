@@ -6,7 +6,7 @@ let outPut = document.querySelector("#outPut")
 let array_2 = [16, 17, 19, 21, 23, 29, 31, 45, 46, 47, 49, 51, 53, 54, 57, 58, 59, 62, 66, 81, 83, 85, 103]
 
 function calc(teeth, base) {
-  let sw = 999;
+  let sw = 9999;
   if (teeth == "") return "null";
   if (array_2.includes(+teeth)) {
     outPut.innerHTML +=
